@@ -21,3 +21,4 @@ panic = "abort"
 [dependencies]
 qt_widgets = "0.5"
 rwr_gfl_armor_parser = { path = "../rwr-gfl-armor-parser" }
+rwr_gfl_weapon_parser = { path = "../rwr-gfl-weapon-parser" }
