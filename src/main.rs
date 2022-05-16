@@ -128,7 +128,7 @@ fn main() {
                     );
                 }
                 Err(err) => {
-                    QMessageBox::information_q_widget2_q_string(
+                    QMessageBox::critical_q_widget2_q_string(
                         widget_ptr,
                         &qs("执行失败"),
                         &qs("\"%1\".")
@@ -167,7 +167,7 @@ fn main() {
                     );
                 }
                 Err(err) => {
-                    QMessageBox::information_q_widget2_q_string(
+                    QMessageBox::critical_q_widget2_q_string(
                         widget_ptr,
                         &qs("执行失败"),
                         &qs("\"%1\".")
