@@ -5,6 +5,8 @@
 1. 下载[构建后代码](https://github.com/Kreedzt/rwr-gfl-collection-tool/releases)
 2. 解压后双击 `rwr-collection-tool-*` 文件夹内 `rwr-collection-tool.exe`, 可直接运行
 
+> 若提示缺少 dll, 安装构建下载页面的 `vc_redist.x64.exe` 即可
+
 
 ## 开发
 
