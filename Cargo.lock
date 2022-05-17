@@ -599,8 +599,8 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7ef03e0a2b150c7a90d01faf6254c9c48a41e95fb2a8c2ac1c6f0d2b9aefc342"
 
 [[package]]
-name = "rwr-gfl-mod-collection-tool"
-version = "0.1.0"
+name = "rwr-collection-tool"
+version = "0.1.0-beta1"
 dependencies = [
  "qt_widgets",
  "rwr_gfl_armor_parser",
@@ -609,8 +609,9 @@ dependencies = [
 
 [[package]]
 name = "rwr_gfl_armor_parser"
-version = "0.3.0"
+version = "0.4.0"
 dependencies = [
+ "anyhow",
  "chrono",
  "csv",
  "encoding_rs",
@@ -621,7 +622,7 @@ dependencies = [
 
 [[package]]
 name = "rwr_gfl_weapon_parser"
-version = "0.12.1"
+version = "0.13.1"
 dependencies = [
  "anyhow",
  "chrono",

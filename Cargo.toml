@@ -1,6 +1,6 @@
 [package]
-name = "rwr-gfl-mod-collection-tool"
-version = "0.1.0"
+name = "rwr-collection-tool"
+version = "0.1.0-beta1"
 edition = "2021"
 authors = ["Kreedzt"]
 
