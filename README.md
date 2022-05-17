@@ -66,6 +66,8 @@ cp .\LICENSE deploy\
 windeployqt.exe .\deploy\rwr-collection-tool.exe --dir deploy --release --no-translations --no-angle --no-opengl-sw --no-quick-import --no-virtualkeyboard --no-compiler-runtime --no-webkit2
 ```
 
+> 以上代码可合并到文件中, 方便执行, 可参考 `deploy-pwsh.ps1` 文件
+
 以上操作完毕后, 双击 `deploy\rwr-collection-tool.exe` 即可成功运行
 
 > 如果不能保证运行机器包含运行环境, 建议执行 `windeployqt` 时去掉 `--no-compiler-runtime` 参数, 这样会复制一份运行时安装程序到部署目录中
