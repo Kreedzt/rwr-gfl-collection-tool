@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-only
 // 移除控制台
 #![windows_subsystem = "windows"]
 
